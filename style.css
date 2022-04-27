@@ -30,7 +30,8 @@
 }
 .main{
     /*background-color: yellow;*/
-    width: 90vw;
+    width: 100vw;
+    background: center/cover no-repeat url("dev.jpeg") ;
 }
 .container{
     display: flex;
@@ -50,8 +51,9 @@
     justify-content: center;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
-.hello{
+.hello{ 
     font-size: 3em;
     
 }
@@ -72,12 +74,12 @@ margin-top: 23px;
     font-size: 16px;
 }
 .btn{
-    padding: 9px 14px;
-    border-radius: 22px;
+    padding: 9px 9px;
+    border-radius: 15px;
     color: white;
-    background-color: dodgerblue;
-    font-weight: bold;
-    font-size: 2em;
+    background-color: rgb(135, 127, 127);
+    font-weight: lighter;
+    font-size: 1.5em;
     margin: 3px 3px;
     cursor: pointer;
 }
@@ -90,6 +92,7 @@ margin-top: 23px;
     padding: 0 34px;
     font-family: 'Orelega One', cursive;
     margin: 0 88px;
+    height: 900px;
 }
 .contactform h1{
     font-family: 'Roboto Mono', monospace;
@@ -106,9 +109,11 @@ flex-direction: column;
     border-radius: 5px;
     margin: 6px 0 0 0;
     padding: 3px;
+    
 }
 .contactform form{
     margin: 0 40px;
+    color: white;
 }
 #emailHelp{
     font-size: 11px;
@@ -141,10 +146,12 @@ flex-direction: column;
 }
 .blogcontainer{
     margin:40px 88px;
+    color: white;
 }
 h1  {
     font-family: 'Roboto Mono', monospace;
     margin: 23px;
+    color: white;
 
 }
 p{
@@ -152,19 +159,23 @@ p{
 }
 .intro{
     margin: 10px 88px;
+    height: 900px;
 }
 .intro h2{
 
     font-family: 'Roboto Mono', monospace;
     margin: 12px;
+    color: white;
 }
 .intro p{
     
     font-family: 'Roboto Mono', monospace;
     margin: 12px;
+    color: white;
 }
 .skilcontainer{
     padding: 12px;
+    color: white;
 }
 .skill{
     width: 265px;
@@ -199,9 +210,10 @@ position: absolute;
 cursor: pointer;
 top: 10px;
 left: 10px;
+
 }
 .cross1{
-   margin-left: 190px; 
+   margin-left: 170px; 
 }
 @media (max-width: 1300px) {
     *{
@@ -209,12 +221,13 @@ left: 10px;
     }
     .devPic{
         display: none;
+       
      }
     .buttons{
         font-size: 6px;
     }
     .devInfo{
-        font-size: 10px;
+        font-size: 10px;    
     }
   /*  .sidebar{
         transform: translate(-443px,0px);
