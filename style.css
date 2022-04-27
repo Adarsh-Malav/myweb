@@ -42,13 +42,12 @@
     width: 70vw;
     margin: 144px auto;
     display: flex;
-    justify-content: space-around;
 }
 
 .devInfo{
     font-size: 16px;
     display: flex;
-    justify-content: center;
+    
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -213,7 +212,7 @@ left: 10px;
 
 }
 .cross1{
-   margin-left: 170px; 
+   margin-left: 185px; 
 }
 @media (max-width: 1300px) {
     *{
